@@ -1,0 +1,6 @@
+# vim files
+*~
+
+# chrome files
+*.crx
+*.pem
