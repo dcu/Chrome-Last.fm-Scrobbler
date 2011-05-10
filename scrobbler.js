@@ -61,7 +61,8 @@ function scrobblerNotification(text, img) {
  */ 
 function handshake() {
 	if (!localStorage.username || !localStorage.password){
-		scrobblerNotification("No username and/or password found! Please check your last.fm login details in the options page!");
+		scrobblerNotification("Oops! Seems like you forgot to fill in your Last.fm credentials.\n\nPlease head to the options page and do so.");
+		authFailCounter++;
 		return false;
 	}
 	var username = localStorage.username;

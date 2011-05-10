@@ -28,8 +28,8 @@
       "css": ["youtube.css"]
       },
 	  {
-      "matches": ["http://listen.grooveshark.com/*"],
-      "js": ["jquery-1.4.2.min.js", "jquery.dump.js", "grooveshark.js"],
+      "matches": ["*://*.grooveshark.com/*", "*://grooveshark.com/*"],
+      "js": ["grooveshark.js"],
       "css": ["youtube.css"]
       },
       {
